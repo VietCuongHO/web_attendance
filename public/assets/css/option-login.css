@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #e5e7eb;
+}
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 48px 30px;
+}
+body .container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+}
+body .container .logo img {
+  margin-bottom: 16px;
+}
+body .container h2 {
+  margin: 20px 0;
+  font-size: 18px;
+  color: rgb(103, 108, 112);
+}
+body .container .select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+body .container .select a {
+  padding: 6px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  color: #000;
+}
+body .container .select a:nth-child(2) {
+  margin: 8px 0;
+}
+
+/*# sourceMappingURL=option-login.css.map */
